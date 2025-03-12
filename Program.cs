@@ -5,7 +5,7 @@ class Program
 {
     private static readonly HttpClient client = new HttpClient();
     private const string ApiBase = "https://api.moonshot.cn/v1/";
-    private const string ApiKey = "sk-GmuivrlKlEkxKLdxJhwgY1DSDtz7hfYD5mmiv952eyxE0rba"; // Ganti dengan API key Anda
+    private const string ApiKey = "YOUR_MOONSHOT_API_KEY"; // Ganti dengan API key Anda
 
     static async Task Main(string[] args)
     {
@@ -86,7 +86,6 @@ class Program
                     var json = JsonDocument.Parse(line.Substring(6));
                     var delta = json.RootElement.GetProperty("choices")[0].GetProperty("delta");
 
-                    // Periksa apakah "content" ada sebelum mengaksesnya
                     if (delta.TryGetProperty("content", out JsonElement contentElement))
                     {
                         string? contentText = contentElement.GetString();
