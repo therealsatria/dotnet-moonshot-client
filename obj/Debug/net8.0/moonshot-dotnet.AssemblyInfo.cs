@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("moonshot-dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02ba272d39dc908ec9646b837a1f4e8e50bfeea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4660dfdd289ab8e1dc05113fdd6c8c980d196b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("moonshot-dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("moonshot-dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
